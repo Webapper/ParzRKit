@@ -23,6 +23,7 @@ How it works
 ------------
 
 It's a quite easy way to use this lib basically:
+
 1. Create a Lexer class which extends ParzRKit's Lexer, and create its Node classes
 2. Create Linker class(es) which are extends ParzRKit's Linker - keep in mind that your Linker classes must fits your needs of your Node classes!
 3. Nearly just Parser->parse()->compile()->link(); I said: *nearly*
