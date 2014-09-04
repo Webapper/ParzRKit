@@ -1,0 +1,21 @@
+{
+    "name": "assarte/parzrkit",
+    "description": "ParzRKit",
+    "keywords": ["php", "parser"],
+    "type": "library",
+    "homepage": "https://github.com/assarte/ParzRKit",
+    "license": "CC-4.0",
+    "authors": [
+        {
+            "name": "Assarte D'Raven",
+            "homepage": "http://webapper.hu"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["lib"]
+    }
+}
